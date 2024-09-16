@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Certificate Generator - Admin</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Admin: Upload Template and Data</h1>
+    <form action="/admin" method="POST" enctype="multipart/form-data">
+        <label for="template">Upload Certificate Template:</label>
+        <input type="file" name="template" required><br>
+        
+        <label for="csv_data">Upload CSV Data:</label>
+        <input type="file" name="csv_data" required><br>
+        
+        <button type="submit">Generate Certificates</button>
+    </form>
+</body>
+</html>

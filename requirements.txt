@@ -1,0 +1,5 @@
+Flask==3.0.3
+pillow==10.2.0
+pandas==2.2.1
+qrcode
+pdfkit
